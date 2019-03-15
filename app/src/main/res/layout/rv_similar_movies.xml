@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingEnd="16dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivSMoviePoster"
+            android:layout_width="wrap_content"
+            android:layout_height="320dp"
+            android:layout_alignParentTop="true"
+            tools:srcCompat="@drawable/ic_launcher_background" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvSMovieTitle"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="somet text"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
